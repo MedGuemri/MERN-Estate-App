@@ -3,6 +3,6 @@ import authController from "../controllers/authController.js"
 
 const router = express.Router()
 
-router.post("/singIn",authController.register)
+router.post("/singUp",authController.register)
 
 export default router
